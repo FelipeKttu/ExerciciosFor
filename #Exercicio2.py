@@ -1,5 +1,5 @@
-for C in range(20):
-    print(C)
+for c in range(20):
+    print(c)
     VA = float(input('Digite o primeiro valor:'))
     VB = float(input('Digite o segundo valor:'))
     VC = float(input('Digite o terceiro valor:'))
