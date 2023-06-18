@@ -1,17 +1,22 @@
-for C in range(30):
-    P1 = float(input('Digite a primeira nota:'))
-    P2 = float(input('Digite a segunda nota:'))
-    M = (P1 + P2 )/ 2
-    if M >= 5:
+for c in range(30):
+    prova_1 = float(input('Digite a primeira nota:'))
+    prova_2 = float(input('Digite a segunda nota:'))
+    media = (prova_1 + prova_2 ) / 2
+
+    if media >= 5:
         print('APROVADO !!')
-    elif M < 5 and M >= 3:
+    elif media < 5 and media >= 3:
+
         print('EXAME !!')
-        NE = float(input('Digite a nota do exame:'))
-        MF = (M + NE) / 2
-        if MF > 5:
+
+        nota_exame = float(input('Digite a nota do exame:'))
+
+        if nota_exame > 5:
             print('APROVADO !!')
-        elif MF < 5:
+        elif nota_exame < 5:
             print('REPROVADO !!')
-    elif M < 3:
+
+    elif media < 3:
         print('REPROVADO !!')
+    
     
