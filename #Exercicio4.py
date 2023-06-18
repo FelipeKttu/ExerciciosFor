@@ -1,12 +1,12 @@
-for C in range (10):
-    NI = int(input('Digite um Número Inteiro:'))
-    R = NI % 3
-    if R == 0:
-        print('O Número {} é multiplo de 3'.format(NI))
-    elif R != 0:
-        print('O Número {} não é multiplo de 3'.format(NI))
+for c in range (10):
+    NumInt = int(input('Digite um Número Inteiro:'))
+    resto = NumInt % 3
+    if resto == 0:
+        print('O Número {} é multiplo de 3'.format(NumInt))
+    elif resto != 0:
+        print('O Número {} não é multiplo de 3'.format(NumInt))
     
-    if NI > 0:
+    if NumInt > 0:
         print('O Número é Positivo')
-    elif NI < 0: 
+    elif NumInt < 0: 
         print('O Número é Negativo')
