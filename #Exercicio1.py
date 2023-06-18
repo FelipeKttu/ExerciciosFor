@@ -1,11 +1,11 @@
-for C in range(5):
-    print(C)
-    V1 = float(input('Digite o primeiro valor:'))
-    V2 = float(input('Digite o segundo valor:'))
-    S = V1 + V2
-    print('A soma é {}'.format(S))
+for c in range(5):
+    valor1 = float(input('Digite o primeiro valor:'))
+    valor2 = float(input('Digite o segundo valor:'))
+    soma = valor1 + valor2
+    print('A soma é {}'.format(soma))
+    print(c)
     
-    if V1 > V2:
+    if valor1 > valor2:
         print("O primeiro valor é maior !!")
-    elif V2 > V1:
+    elif valor2 > valor1:
         print('O segundo valor é maior !!')
