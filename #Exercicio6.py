@@ -8,22 +8,21 @@ NMaiores = 0
 M = 0
 Menor = 0
 for c in range (1,11):
-      N = float(input('Digite um número:'))
-      MN = N
-      M = M + N 
-      if N % 3 == 0:
+      Num = float(input('Digite um número:'))
+      MN = Num
+      M = M + Num 
+      if Num % 3 == 0:
           NMultiplos += 1
-      if N < 45:
+      if Num < 45:
           NMenores += 1
-      if N > 55:
+      if Num > 55:
           NMaiores += 1
-      if N < Menor or Menor ==0:
-           Menor = N
-MF = M / 10
+      if Num < Menor or Menor == 0:
+           Menor = Num
+Mediafinal = M / 10
 print('{} são multiplos de 3'.format(NMultiplos))
 print('{} são menores que 45'.format(NMenores))
 print('{} números são maiores que 55'.format(NMaiores))
 print('{} é o menor número !!'.format(Menor))
-print('{} é a media dos números'.format(MF))
+print('{} é a media dos números'.format(Mediafinal))
       
-
