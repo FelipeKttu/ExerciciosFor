@@ -3,6 +3,7 @@ for C in range(20):
     VA = float(input('Digite o primeiro valor:'))
     VB = float(input('Digite o segundo valor:'))
     VC = float(input('Digite o terceiro valor:'))
+    
     if VA > VB and VA > VC:
         print('O primeiro valor {} é o maior !!'.format(VA))
     elif VB > VA and VB > VC:
